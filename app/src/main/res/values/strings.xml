@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PracticeActivity!</string>
+    <!--<string name="app_name">Practice</string>-->
+    <string name="onAccuracyChanged">onAccuracyChanged未触发</string>
+    <string name="AT">0</string>
+<!--    <string name="AT2">1</string>-->
+<!--    <string name="AT3">2</string>-->
+<!--    <string name="AT4">3</string>-->
+<!--    <string name="AT5">4</string>-->
+<!--    <string name="AT6">5</string>-->
+<!--&lt;!&ndash;    <string name="AT7">6</string>&ndash;&gt;-->
+<!--    <string name="AT8">7</string>-->
+    <string name="AT9">8</string>
+    <string-array name="spingarr">
+        <item>走路</item>
+        <item>跑步</item>
+        <item>骑自行车</item>
+        <item>跳跃</item>
+        <item>骑摩托车</item>
+        <item>乘坐公交</item>
+        <item>乘坐地铁</item>
+        <item>开车</item>
+        <item>乘坐高铁</item>
+        <item>乘坐飞机</item>
+        <item>搭乘电梯</item>
+    </string-array>
+
+    <string name="Button_Write">保存</string>
+    <string name="Button_Stop">停止</string>
+    <string name="app_name">ModernLogin</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+
+</resources>

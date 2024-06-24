@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/register_bk_color"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    tools:context="com.example.BehavioralBiometricsCollection.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/viewParent.headerText.NoMode"
+                    android:layout_width="368dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="30dp"
+                    android:text=" &#160; Behavioral biometric data &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; collecting"
+                    android:textColor="@color/whiteTextColor" />
+
+                <ImageView
+                    android:layout_width="700dp"
+                    android:layout_height="152dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="74dp"
+                    android:layout_marginRight="31dp"
+                    android:src="@drawable/register2" />
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#FAF0E6"
+                app:cardCornerRadius="10dp">
+                <!--app:cardBackgroundColor="@color/whiteTextColor"-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <CheckedTextView
+                        android:id="@+id/AT9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+
+                    <!--<CheckedTextView
+                        android:id="@+id/onAccuracyChanged"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/onAccuracyChanged"
+                        android:textSize="18dp" />-->
+
+                    <!--<Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner2"
+                        android:entries="@array/spingarr"
+                        />-->
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+
+                        <Space
+                            android:layout_width="42dp"
+                            android:layout_height="match_parent" />
+
+                        <Button
+                            android:id="@+id/Button_Write"
+                            style="@style/SaveButton"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/loginViewsMargin"
+                            android:text="Start"
+                            android:textAlignment="center"
+                            android:textSize="20dp"
+                            app:initialCornerAngle="27dp"
+                            app:spinning_bar_color="#FFF"
+                            app:spinning_bar_padding="16dp"
+                            app:spinning_bar_width="4dp" />
+
+                        <Space
+                            android:layout_width="20dp"
+                            android:layout_height="match_parent" />
+
+                        <Button
+                            android:id="@+id/Button_Stop"
+                            style="@style/SaveButton"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/loginViewsMargin"
+                            android:textAlignment="center"
+                            app:initialCornerAngle="27dp"
+                            app:spinning_bar_color="#FFF"
+                            app:spinning_bar_padding="16dp"
+                            app:spinning_bar_width="4dp"
+                            android:text="STOP" android:textSize="20dp"/>
+
+                        <!--<Button
+                            android:id="@+id/cirRegisterButton"
+                            style="@style/loginButton"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/loginViewsMargin"
+                            android:text="REGISTER"
+                            android:textAlignment="center"
+                            app:initialCornerAngle="27dp"
+                            app:spinning_bar_color="#FFF"
+                            app:spinning_bar_padding="16dp"
+                            app:spinning_bar_width="4dp"
+                            android:onClick="onLoginClick"
+                            />-->
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
