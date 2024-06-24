@@ -24,6 +24,7 @@ The integration development environment platform for the Behavioral Biometric Co
 ![create](./images/create.jpg)
 
 Fig. 4 Create android device
+
 3. And then you can run the App, and you will find the register page. Fill in the relevant information as required and click the Register button, and you will find the behavioral biometric data collection, display, and storage page. And then click the Start button, the collected behavioral biometric data will be stored at /data/data/com.example.BehavioralBiometricsCollection/files/ in Android system.
 
 4.For real device debugging, the mobile device used is Nova5i Pro, with the operating system version being Harmony OS 3.0.0. If you want to run on the real android device, you need to enable Developer Mode on your Android device and connect it to your computer using a USB cable. Then, Android Studio will automatically detect your Android device and successfully install the Data Collection App on it.
