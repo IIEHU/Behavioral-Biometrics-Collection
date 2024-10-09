@@ -30,3 +30,16 @@ Fig. 4 Create android device
 
 4.For real device debugging, the mobile device used is Nova5i Pro, with the operating system version being Harmony OS 3.0.0. If you want to run on the real android device, you need to enable Developer Mode on your Android device and connect it to your computer using a USB cable. Then, Android Studio will automatically detect your Android device and successfully install the Data Collection App on it.
 
+## Citation
+
+If you use this code in your work, please cite:
+
+@ARTICLE{10703167,
+  author={Hu, Mingming and Wang, Ding and Li, Chen and Xu, Yang and Tu, Bibo},
+  journal={IEEE Transactions on Dependable and Secure Computing}, 
+  title={Behavioral Biometrics-based Continuous Authentication Using A Lightweight Latent Representation Masked One-Class Autoencoder}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-16},
+  }
