@@ -33,7 +33,7 @@ Fig. 4 Create android device
 ## Citation
 
 If you use this code in your work, please cite:
-
+```
 @ARTICLE{10703167,
   author={Hu, Mingming and Wang, Ding and Li, Chen and Xu, Yang and Tu, Bibo},
   journal={IEEE Transactions on Dependable and Secure Computing}, 
@@ -43,3 +43,4 @@ If you use this code in your work, please cite:
   number={},
   pages={1-16},
   }
+```
